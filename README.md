@@ -4,7 +4,7 @@ A backend service that helps users track their subscriptions and sends timely re
 
 ---
 
-## ✨ Features  
+### ✨ Features  
 - **Subscription Tracking**: Keep track of all your subscriptions in one place.  
 - **Automated Reminders**: Get notified before your subscriptions renew using Upstash Workflows.  
 - **Secure Authentication**: JWT-based authentication ensures secure access.  
@@ -12,7 +12,7 @@ A backend service that helps users track their subscriptions and sends timely re
 
 ---
 
-## 🛠 Dependencies  
+### 🛠 Dependencies  
 - Upstash Workflows [Upstash Workflows](https://workflows.upsash.com/)
 - JWT Authentication -  [JWT/Bcrypts](https://www.npmjs.com/package/bcryptjs)(https://www.npmjs.com/package/jsonwebtoken)
 - Arcjet - [Arcjet](https://arcjet.io/)
@@ -20,11 +20,11 @@ A backend service that helps users track their subscriptions and sends timely re
 
 ---
 
-## 🚀 How to Use  
-1. Authenticate using JWT to securely access the service.  
-2. Add your subscriptions with details like name, cost, and renewal date.  
+### 🚀 How to Use  
+1. Authenticate using JWT to access the service securely.  
+2. Add details about your subscriptions, such as name, cost, and renewal date.  
 3. Receive timely reminders before your subscriptions renew.  
 
 ---
 
-## 🏗 Built with ❤️ using Upstash Workflows, Arcjet, JWT, and MongoDB  
+#### 🏗 Built with ❤️ using Upstash Workflows, Arcjet, JWT, and MongoDB  
