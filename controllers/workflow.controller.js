@@ -10,9 +10,7 @@ const REMINDERS = [7,5,3,1]
 
 export const sendReminder = serve(async (context) => {
   const {subscriptionId} = context.requestPayload;
-  //console.log(`Sending reminder for subscription ${subscriptionId}`)
   const subscription = await fetchSubscription(context, subscriptionId);
-  //console.log(subscription)
   if (!subscription || subscription.status !== 'active') return;
   const renewalDate = dayjs(subscription.renewalDate);
   
