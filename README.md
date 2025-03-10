@@ -13,8 +13,9 @@ A backend service that helps users track their subscriptions and sends timely re
 ---
 
 ### 🛠 Dependencies  
-- Upstash Workflows [Upstash Workflows](https://workflows.upsash.com/)
-- JWT Authentication -  [JWT/Bcrypts](https://www.npmjs.com/package/bcryptjs)(https://www.npmjs.com/package/jsonwebtoken)
+- Upstash Workflows [Upstash Workflows](https://upstash.com/docs/workflow/getstarted)
+- JWT Authentication - [JWT](https://npmjs.com/package/jsonwebtoken)
+- Crypting Passwords - [Bcryptjs](https://www.npmjs.com/package/bcryptjs)
 - Arcjet - [Arcjet](https://arcjet.io/)
 - MongoDB - [Mongoose](https://mongoosejs.com/)
 
